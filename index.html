@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diæstist | Mette Borre</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body id="bodyindex">
+
+
+
+<header id="forside">
+        <nav>
+            <a href="index.html"><img id="headlogo" src="images/logo1.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu() "></i>
+                <ul>
+
+                        <li><a id="book" href="">BESTIL TID</a></li>
+                        <li><a href="index.html">FORSIDE</a></li>
+                        <div class="dropdown">
+                            <li><button class="dropbtn">PRAKTISK</button></li>
+                            <div class="dropdown-content">
+                            <a href="#">Pris/info</a>
+                            <a href="#">Om mig</a>
+                            <a href="#">Bog salg</a>
+                            </div>
+                          </div>
+                        <li><a href="#">OMTALE</a></li>
+                        <div class="dropdown">
+                            <li><button class="dropbtn">FAGLIGE ARTIKLER</button></li>
+                            <div class="dropdown-content">
+                                <a href="#"><p>Cøliaki - "glutenintolerans"</p></a>
+                                <a href="#"><p>Irritabel tyktarm og behandling</p></a>
+                                <a href="#"><p>FODMAP diet</p></a>
+                                <a href="#"><p>Ernæringens betydning</p></a>
+                                <a href="#"><p>Kost og Crohns sygdom</p></a>
+                                <a href="#"><p>Underernæring, vægttab og sygdom</p></a>
+                                <a href="#"><p>STOMI</p></a>
+                        
+                            </div>
+                          </div>
+                        <li><a href="#">KONTAKT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+</header>
+
+
+<script>
+    var navlinks = document.getElementById("navLinks");
+
+    function showMenu (){
+        navlinks.style.right = "0";       
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px";
+    }
+</script>
+
+
+
+<section id="herosection">
+
+        <img id="mette" src="images/mette1.png" alt="mette">
+
+    <div>
+        <h1>Klinisk Diætist og Specialist i ernæring ved fordøjelsesproblemer</h1>
+        <p>Vidste du, at du kan forebygge overvægt og kræftsygdomme og bygge et stærkt immunforsvar og en god fordøjelse, når du passer godt på dit tarmsystem?</p>
+        <p id="opskrift">Opskriften er enkel: 
+            Lidt omtanke og god mad, der fodrer de gode tarmbakterier.</p>
+    </div>
+    <img id="fsbillede" src="images/forsidebillede.png" height="400" alt="mette">
+
+ 
+</section>
+
+
+<div id="omtalesection">
+        <img id="omtale" src="images/omtale.png" alt="omtale">
+
+</div>
+
+<div id="omtaleknap">
+  <a href="#">
+         <h2>Mere omtale</h2>
+  
+</a>        
+</div>
+
+
+<section id="forventesection">
+    <div>
+        <h1>Hvad du kan forvente til en samtale</h1>
+       <p> En samtale hos mig vil altid tage udgangspunkt i din ønsker og symptomer og altid med en grundig 
+         gennemgang af dine aktuelle kostvaner. På grund af min store erfaring med mavetarmsygdomme og irritabel tarm 
+         vil du få en meget kvalificeret tilgang til din sygdom. Jeg spørger grundigt indtil de undersøgelser du har fået foretaget før 
+         behandling fx med Low FODMAP diet og giver også råd om, hvad du evt kan mangle at få undersøgt. . 
+         <br>
+         <br>
+         Der er mulighed for samtale på hverdage altid efter 15.30. 
+         Samtaler kan foregå ved fremmøde men også online fx med Teams, evt telefon/facetime 
+         <br>
+         <br>
+         Alle samtaler kan efter ønske følges op med en mail vedr effekt af diæt.  Der er naturligvis også mulighed for opfølgende samtaler</p>
+       
+         <div id="forventeknap">
+            <a href="#">
+                   <h2>Læs mere</h2>      
+          </a>
+          </div>
+        </div>
+ 
+ </section>
+<footer>
+    <div>
+        <a href="#"><img class="logo" src="images/logo1.png" alt="footerlogo" height="150"></a>
+        </div>
+</footer>
+
+<footer>
+    <div>
+    <p id="copyright">Mette Borre / Klinisk diætist / Tlf: 24 62 54 53 / Mail: kontakt@diaetist-metteborre.dk / © CVR 42614785
+    </p>
+    </div> 
+</footer>
+
+
+
+
+
+</body>
+</html>
